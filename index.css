@@ -4,13 +4,16 @@ html{
     font-size:20px;
     background-color:rgb(38, 37, 37);
     text-align: center;
+    background:url(senjou.jpeg);
+    background-size: cover;
 }
 
 body{
     color:rgb(193, 188, 188);
     align-items: center;
     justify-content: center;
-    margin: auto;
+    width:3000px;
+    margin:0 auto;
 }
 
 img .forhonor1 .forhonor{
@@ -19,6 +22,8 @@ img .forhonor1 .forhonor{
 
 h1{
     font-size:180px;
+    width:3000px;
+    margin:0 auto;
     margin-top: 0;
     color:rgb(151, 150, 115);
     background-color:rgb(47, 46, 46);
@@ -83,7 +88,7 @@ strong{
 }
 
 a{
-    color:aquamarine;
+    color:rgb(167, 223, 118);
 }
 
 #mokuji1{
