@@ -3,29 +3,37 @@
 html{
     font-size:20px;
     background-color:rgb(38, 37, 37);
+    text-align: center;
 }
 
 body{
-    position: absolute;
+    color:rgb(193, 188, 188);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
 
+img .forhonor1 .forhonor{
+    width:1000px;
 }
 
 h1{
-    font-size:120px;
-    text-align:center;
+    font-size:180px;
+    margin-top: 0;
     color:rgb(151, 150, 115);
+    background-color:rgb(47, 46, 46);
 }
 
 h2{
-    font-size:50px;
+    font-size:90px;
 }
 
 h3{
-    font-size:40px;
+    font-size:70px;
 }
 
 h4{
-    font-size:30px;
+    font-size:60px;
 }
 
 h1::first-line{
@@ -37,15 +45,15 @@ h1::first-line{
 }
 
 .kokodeha{
-    border:10px double;
-    width:1000px;
+    border: 10px solid;
+    width:1600px;
     margin: auto;
 }
 
 .mokuji{
-    font-size:30px;
+    font-size:50px;
     border:10px solid;
-    width:1000px;
+    width:1300px;
     margin: auto;
 }
 
@@ -63,11 +71,15 @@ table{
 
 table,th, tr,td{
     border: 5px solid rgb(147, 136, 102);
-    font-size:40px
+    font-size:70px
 }
 
 strong{
     color:yellow;
+}
+
+.forhonor{
+    color:rgb(151, 150, 115);
 }
 
 a{
@@ -90,58 +102,13 @@ a{
     font-size:60px;
     background-color:rgb(128,106,57);
     text-align:left;
-}
-
-.slide_fade{
-    position: relative;
-}
-
-.slider_fade > li{
-    position:absolute;
-    margin-left: 670px;
-    list-style: none;
-    visibility: hidden;
-    animation: anime_slider_fade 12s 0s infinite;
-}
-.slider_fade > li:nth-of-type(2){
-    animation-delay: 4s;
-}
-.slider_fade > li:nth-of-type(3){
-    animation-delay: 8s;
-}
-
-@keyframes anime_slider_fade{
-    0%{
-        visibility: visible;
-        opacity: 0;
-    }
-    15% {
-        opacity: 1;
-    }
-    33.3% {
-        opacity: 1;
-    }
-    48.3% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-.genzai{
-    margin-top: 700px;
-}
+}  
 
 .box1{
-    color:rgb(231, 233, 234);
-    align-items: center;
-    text-align: center;
-    padding-top: 30px;
-    background-color:rgb(57, 55, 55);
+    margin:auto;
+    background-color:rgba(132, 132, 130, 0.208)
 }
 
 small{
-    font-size: 30px;
-    
+    font-size: 50px;
 }
